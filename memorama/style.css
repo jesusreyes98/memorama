@@ -1,0 +1,7 @@
+body { text-align: center; font-family: Arial, sans-serif; background: #f2f2f2; margin: 0; padding: 20px; }
+h1 { font-size: 32px; margin-bottom: 5px; }
+p { font-size: 16px; }
+#tablero { display: grid; grid-template-columns: repeat(4, 90px); gap: 12px; justify-content: center; margin: 20px auto; }
+.carta { width: 90px; height: 90px; font-size: 38px; background: #dbeafe; border: none; border-radius: 8px; cursor: pointer; }
+.carta.volteada { background: white; }
+#instalar { margin-top: 40px; background: none; border: none; color: #666; cursor: pointer; font-size: 14px; }
